@@ -2,7 +2,6 @@
 echo "------------Create Genesis Block------------"
 # Kill all apps are using port: 30301, 30302, 30303, 30304
 sh ./stop_test_nodes.sh
-sh ./reset_test_node.sh
 
 # Init genesis block & Run test node
 for i in 1 2 3 4
